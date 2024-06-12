@@ -1,6 +1,7 @@
 /*google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 header {
   display: flex;
   align-items: center;
@@ -119,18 +120,29 @@ footer div p {
   display: flex;
   margin-top: 10px;
 }
+.form-label {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #F5F5DC;
+}
+
 .row {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 30px;
-  color: #40E0D0;
+  color: #2959B9
+}
+.form-control {
+  background-color: #BD81C2 ;
 }
 #exampleFormControlTextarea1 {
 resize: none;
 }
 
+
 .btn-primary {
-  background-color: #00CED1;
+  background-color: #7129B9;
   color: #ffffff;
+  border-color: #7129B9;
 }
 
 .estadioPag {
