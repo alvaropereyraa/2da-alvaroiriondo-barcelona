@@ -24,7 +24,7 @@ header {
   border: none;
   font-size: 1rem;
 }
-.nav-link:hover, .nav-link.active {
+.nav-link:hover {
   color: #ffffff;
 }
 body {
