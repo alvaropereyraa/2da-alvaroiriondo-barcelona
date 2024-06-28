@@ -126,12 +126,11 @@ footer div p {
 .contactoTitulo {
   display: flex;
   margin-top: 10px;
-  color: #ca880d;
+  color: #cf3671;
 }
 .form-label {
   padding: 5px;
   border-radius: 20px;
-  background-color: #31287e;
 }
 .row {
   font-family: "Roboto Mono", monospace;
@@ -139,7 +138,7 @@ footer div p {
   color: #0dc1c7;
 }
 .form-control {
-   background-color: #94c2e0;
+   background-color: #dbe6ec;
 }
 #exampleFormControlTextarea1 {
 resize: none;
@@ -147,9 +146,9 @@ resize: none;
 
 
 .btn-primary {
-  background-color: #7129B9;
+  background-color: #2ec2fd;
   color: #ffffff;
-  border-color: #7129B9;
+  border-color: #2ec2fd;
 }
 
 .estadioPag {
