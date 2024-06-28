@@ -126,20 +126,20 @@ footer div p {
 .contactoTitulo {
   display: flex;
   margin-top: 10px;
+  color: #ca880d;
 }
 .form-label {
   padding: 5px;
   border-radius: 20px;
-  background-color: #F5F5DC;
+  background-color: rgb(49, 40, 126);
 }
-
 .row {
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
-  color: #2959B9
+  color: #0dc1c7;
 }
 .form-control {
-  background-color: #BD81C2 ;
+   background-color: #94c2e0;
 }
 #exampleFormControlTextarea1 {
 resize: none;
