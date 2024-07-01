@@ -1,8 +1,9 @@
 /*google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+$color-formulario: #2ec2fd;
 header {
   background-image: url(../images/fondoheader.jpg);
   background-repeat: no-repeat;
@@ -19,9 +20,10 @@ header {
   font-family: "Open Sans", sans-serif;
   color: #9199E3;
   font-size: 20px;
-}
-.nav-link:hover {
-  color: #ffffff;
+
+  &:hover {
+    color: #ffffff;
+  }
 }
 
 .navbar-toggler {
@@ -38,9 +40,11 @@ body {
   width: 100px;
 }
 
-.encabezado li {
-  display: inline;
-  margin: 10px;
+.encabezado {
+  li {
+    display: inline;
+    margin: 10px;
+  }
 }
 
 .inicio {
@@ -97,16 +101,18 @@ footer {
   display: flex;
   justify-content: space-between;
   min-height: 30vh;
-}
-footer div {
-  width: 33vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-footer div p {
-  color: #f0ffff;
-  margin-left: 10px;
+
+  div {
+    width: 33vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      color: #f0ffff;
+      margin-left: 10px;
+    }
+  }
 }
 
 .sponsorsContenedor {
@@ -154,7 +160,7 @@ footer div p {
 .row {
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
-  color: #2ec2fd;
+  color: $color-formulario;
 }
 
 .form-control {
@@ -166,9 +172,9 @@ footer div p {
 }
 
 .btn-primary {
-  background-color: #2ec2fd;
+  background-color: $color-formulario;
   color: #ffffff;
-  border-color: #2ec2fd;
+  border-color: $color-formulario;
 }
 
 .estadioPag {
@@ -254,5 +260,3 @@ footer div p {
   padding: 10px;
   background-color: #2980B9;
 }
-
-/*# sourceMappingURL=style.css.map */
