@@ -1,0 +1,37 @@
+.contacto {
+    justify-content: center;
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    min-height: 75vh;
+  }
+  
+  .contactoTitulo {
+    display: flex;
+    margin-top: 10px;
+    color: #cf3671;
+  }
+  
+  .form-label {
+    padding: 5px;
+    border-radius: 20px;
+  }
+  
+  .row {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    color: $color-formulario;
+  }
+  
+  .form-control {
+    background-color: #dbe6ec;
+  }
+  
+  #exampleFormControlTextarea1 {
+    resize: none;
+  }
+  
+  .btn-primary {
+    background-color: $color-formulario;
+    color: #ffffff;
+    border-color: $color-formulario;
+  }

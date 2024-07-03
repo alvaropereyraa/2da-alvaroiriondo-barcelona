@@ -1,0 +1,42 @@
+footer {
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: space-between;
+    height: 18vh;
+    
+    div {
+      width: 33vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  
+      p {
+        color: #f0ffff;
+        margin-left: 10px;
+      }
+    }
+  }
+  .sponsorsContenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+  }
+  
+  .sponsors {
+    display: flex;
+    width: map-get($tamaño-redes, $key:width );
+    margin: map-get($tamaño-redes, $key:margin );
+  }
+  
+  .redes {
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    flex-wrap: wrap;
+  }
+  
+  .redesSociales {
+    width: map-get($tamaño-redes, $key:width );
+    margin: map-get($tamaño-redes, $key:margin );
+  }

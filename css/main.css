@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../assets/fondoheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90px;
+}
+
+.offcanvas-header {
+  background-color: #030D76;
+}
+.offcanvas-body {
+  color: #030D76;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #ecd4d4;
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1rem;
+}
+
+.logo {
+  width: 100px;
+}
+
+.inicio {
+  height: 80vh;
+  background-image: url(../images/fondo-inicio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#inicio-carousel {
+  max-width: 60vw;
+  margin: auto;
+}
+
+.carousel-inner {
+  display: flex;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.foto-custom {
+  height: 100%;
+  object-fit: cover;
+  padding: 1rem;
+}
+
+.carousel-caption {
+  justify-content: center;
+}
+.carousel-caption h1 {
+  width: 270px;
+  height: 50px;
+  background-color: aqua;
+}
+
+.titulo-inicio {
+  color: #FF003F;
+  font-family: "Montserrat", sans-serif;
+}
+
+.boton-inicio {
+  font-family: "Montserrat", sans-serif;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #4CBB17;
+  box-shadow: 0 5px #4CBB17;
+}
+.boton-inicio:hover {
+  box-shadow: 0 3px #4CBB17;
+  top: 1px;
+}
+.boton-inicio:active {
+  box-shadow: 0 0 #4CBB17;
+  top: 5px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #381cb1;
+}
+
+.estadioPag {
+  background-image: url(../images/fondoestadio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -1.2rem;
+}
+
+.estadioP {
+  text-align: justify;
+  color: #ffffcc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.estadioFoto {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 60vh;
+}
+
+.estadioPag div h1 {
+  padding: 10px;
+  color: #ff1493;
+}
+
+.mapaEstadio {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.galeria {
+  margin-top: -1rem;
+  background-image: url(../images/fondogaleria.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.col img {
+  max-width: 100%;
+  margin: 20px;
+  padding: 10px;
+  background-color: #2980B9;
+}
+
+.contacto {
+  justify-content: center;
+  background-image: url(../images/fondo.jpg);
+  background-position: center;
+  min-height: 75vh;
+}
+
+.contactoTitulo {
+  display: flex;
+  margin-top: 10px;
+  color: #cf3671;
+}
+
+.form-label {
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.row {
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  color: #2ec2fd;
+}
+
+.form-control {
+  background-color: #dbe6ec;
+}
+
+#exampleFormControlTextarea1 {
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #2ec2fd;
+  color: #ffffff;
+  border-color: #2ec2fd;
+}
+
+footer {
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: space-between;
+  height: 18vh;
+}
+footer div {
+  width: 33vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer div p {
+  color: #f0ffff;
+  margin-left: 10px;
+}
+
+.sponsorsContenedor {
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+}
+
+.sponsors {
+  display: flex;
+  width: 40px;
+  margin: 20px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+  flex-wrap: wrap;
+}
+
+.redesSociales {
+  width: 40px;
+  margin: 20px;
+}
+
+.leyendas {
+  display: flex;
+  background-color: #0c2340;
+  align-items: center;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.subtituloMessi {
+  color: #00ffff;
+}
+
+.messiFoto {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.messi {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffcc;
+}
+
+.messiP {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #ffffcc;
+}
+
+.videoMessi {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

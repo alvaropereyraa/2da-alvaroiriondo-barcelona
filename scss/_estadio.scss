@@ -1,0 +1,33 @@
+.estadioPag {
+    background-image: url(../images/fondoestadio.jpg);
+    @include fondos (cover,no-repeat);
+    margin-top: -1.2rem;
+  }
+  
+  .estadioP {
+    text-align: justify;
+    color: #ffffcc;
+    font-family: $font-title2;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .estadioFoto {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 60vh;
+  }
+  
+  .estadioPag div h1 {
+    padding: 10px;
+    color: #ff1493;
+  }
+  
+  .mapaEstadio {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  

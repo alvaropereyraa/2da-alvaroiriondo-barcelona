@@ -1,0 +1,32 @@
+header {
+    background-image: url(../assets/fondoheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+  }
+  .offcanvas {
+    &-header{
+        background-color: #030D76;
+    }
+    &-body {
+        color: #030D76;
+    }
+    
+  }
+
+  .nav-link {
+    font-family: $font-title2;
+    font-size: 20px;
+    color: #ecd4d4;
+  
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  .navbar-toggler {
+    border: none;
+    font-size: 1rem;
+  }
+  .logo {
+    width: 100px;
+  }

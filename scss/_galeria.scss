@@ -1,0 +1,14 @@
+
+.galeria {
+    margin-top: -1rem;
+    background-image: url(../images/fondogaleria.jpg);
+    @include fondos (cover,no-repeat);
+  }
+  
+  .col img {
+    max-width: 100%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #2980B9;
+  }
+  

@@ -1,0 +1,37 @@
+.leyendas {
+    display: flex;
+    background-color: #0c2340;
+    align-items: center;
+    flex-direction: row;
+    height: 80vh;
+  }
+  
+  .subtituloMessi {
+    color: #00ffff; 
+  }
+  
+  .messiFoto {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .messi {
+    text-align: center;
+    font-family: $font-title1;
+    color: #ffffcc;
+  }
+  
+  .messiP {
+    display: flex;
+    justify-content: center;
+    font-family: $font-title1;
+    font-size: 20px;
+    color: #ffffcc;
+  }
+  
+  .videoMessi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
