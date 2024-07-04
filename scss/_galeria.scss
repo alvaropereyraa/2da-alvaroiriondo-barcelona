@@ -2,7 +2,7 @@
 .galeria {
     margin-top: -1rem;
     background-image: url(../images/fondogaleria.jpg);
-    @include fondos (cover,no-repeat);
+    
      h1 {
       text-align: center;
       font-family: $font-parrafo;

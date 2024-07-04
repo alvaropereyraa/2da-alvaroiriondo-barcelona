@@ -1,33 +1,31 @@
 .contacto {
-    justify-content: center;
     background-image: url(../images/fondo.jpg);
     background-position: center;
     min-height: 75vh;
-
+    .contactoTitulo {
+      margin-top: 10px;
+      color: #cf3671;
+    }
+    
+    .form-label {
+      padding: 5px;
+      border-radius: 20px;
+    }
+    
+    .row {
+      font-family: $font-parrafo;
+      font-size: 30px;
+      color: $color-formulario;
+    }
+    #exampleFormControlTextarea1 {
+      resize: none;
+    }
+    
+    .btn-primary {
+      background-color: $color-formulario;
+      color: $color-contraste;
+      border-color: $color-formulario;
+    }
   }
   
-  .contactoTitulo {
-    display: flex;
-    margin-top: 10px;
-    color: #cf3671;
-  }
   
-  .form-label {
-    padding: 5px;
-    border-radius: 20px;
-  }
-  
-  .row {
-    font-family: $font-parrafo;
-    font-size: 30px;
-    color: $color-formulario;
-  }
-  #exampleFormControlTextarea1 {
-    resize: none;
-  }
-  
-  .btn-primary {
-    background-color: $color-formulario;
-    color: $color-contraste;
-    border-color: $color-formulario;
-  }

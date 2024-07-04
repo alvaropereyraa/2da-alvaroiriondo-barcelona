@@ -1,32 +1,46 @@
 .estadioPag {
-  background: rgb(136,8,8);
-  background: linear-gradient(90deg, rgba(136,8,8,1) 10%, rgba(0,0,0,1) 26%, rgba(4,2,41,1) 76%, rgba(5,0,125,1) 90%);
-    margin-top: -1.2rem;
-  }
-  
-  .estadioP {
-    text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(1, 0, 78);
+  background: linear-gradient(
+    180deg,
+    rgba(1, 0, 78, 1) 50%,
+    rgba(151, 0, 73, 1) 100%
+  );
+  margin-top: -1.2rem;
+
+  p {
     color: $color-contraste;
     font-family: $font-parrafo2;
     font-size: 25px;
     margin: 20px;
-  }
-  .estadioPag  {
-    h1 {
-     background-image: url(../images/fondoestadio.jpg);
-     
-    padding: 5px;
-    margin: 0;
-    margin-top: 10px;
-    color: #FF3800;
-    font-size: 70px;
     text-align: center;
-    font-family: $font-title4;
+    width: 70vw;
+  }
+  .titulo-Estadio {
+    h1 {
+      padding: 45px;
+      margin: 0;
+      color: $color-contraste;
+      font-size: 60px;
+      font-family: $font-title2;
     }
   }
-#carouselExampleSlidesOnly {
-  margin: 0 auto;
-  max-height: 700px;
-  display: flex;
+
+  .mapa {
+    iframe {
+      max-width: 100vw;
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+  #carouselExampleSlidesOnly {
+    width: 70vw;
+    .foto-c {
+      height: 70vh;
+      object-fit: cover;
+      position: relative;
+    }
+  }
 }
-  

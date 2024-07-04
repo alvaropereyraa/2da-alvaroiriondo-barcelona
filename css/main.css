@@ -10,19 +10,20 @@ header {
   height: 90px;
 }
 
-.offcanvas-header {
-  background-color: #030D76;
-}
-.offcanvas-body {
+.offcanvas {
   background-color: #ff6347;
 }
 
-.nav-link {
+.offcanvas-header {
+  background-color: #030D76;
+}
+
+header .nav-link {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #ff6347;
 }
-.nav-link:hover {
+header .nav-link:hover {
   color: #ffffff;
 }
 
@@ -39,23 +40,21 @@ header {
   height: 80vh;
   background: url(../images/fondo-inicio.jpg) left no-repeat, url(../images/fondo-inicio-2.jpg) right no-repeat;
 }
-
-#inicio-carousel {
+.inicio #inicio-carousel {
   max-width: 60vw;
   margin: auto;
 }
-
-.carousel-item {
+.inicio #inicio-carousel .carousel-item {
   height: 80vh;
+  position: relative;
 }
-
-.foto-custom {
+.inicio #inicio-carousel .carousel-item .foto-custom {
   height: 100%;
   object-fit: cover;
   filter: brightness(50%);
 }
-
-.carousel-caption h1 {
+.inicio #inicio-carousel .carousel-caption h1 {
+  z-index: 10;
   width: 270px;
   height: 50px;
   color: #ffffff;
@@ -63,23 +62,17 @@ header {
   text-align: left;
   font-size: 60px;
 }
-.carousel-caption h2 {
+.inicio #inicio-carousel .carousel-caption h2 {
   color: #ffffff;
   text-align: left;
   font-family: "Playwrite GB S", cursive;
   font-size: 45px;
 }
-.carousel-caption p {
+.inicio #inicio-carousel .carousel-caption p {
   text-align: left;
   font-family: "Kanit", sans-serif;
 }
-
-.titulo-inicio {
-  color: #FF003F;
-  font-family: "Montserrat", sans-serif;
-}
-
-.boton-inicio {
+.inicio #inicio-carousel .carousel-caption input {
   font-family: "Open Sans", sans-serif;
   min-width: 110px;
   height: 30px;
@@ -92,51 +85,59 @@ header {
   background: #271080;
   box-shadow: 0 5px #271080;
 }
-.boton-inicio:hover {
+.inicio #inicio-carousel .carousel-caption input:hover {
   box-shadow: 0 3px #271080;
   top: 1px;
 }
-.boton-inicio:active {
+.inicio #inicio-carousel .carousel-caption input:active {
   box-shadow: 0 0 #271080;
   top: 5px;
 }
-
-.estadioPag {
-  background: rgb(136, 8, 8);
-  background: linear-gradient(90deg, rgb(136, 8, 8) 10%, rgb(0, 0, 0) 26%, rgb(4, 2, 41) 76%, rgb(5, 0, 125) 90%);
-  margin-top: -1.2rem;
+.inicio #inicio-carousel .carousel-caption .titulo-inicio {
+  color: #FF003F;
+  font-family: "Montserrat", sans-serif;
 }
 
-.estadioP {
-  text-align: justify;
+.estadioPag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(1, 0, 78);
+  background: linear-gradient(180deg, rgb(1, 0, 78) 50%, rgb(151, 0, 73) 100%);
+  margin-top: -1.2rem;
+}
+.estadioPag p {
   color: #ffffff;
   font-family: "Bebas Neue", sans-serif;
   font-size: 25px;
   margin: 20px;
-}
-
-.estadioPag h1 {
-  background-image: url(../images/fondoestadio.jpg);
-  padding: 5px;
-  margin: 0;
-  margin-top: 10px;
-  color: #FF3800;
-  font-size: 70px;
   text-align: center;
-  font-family: "Kanit", sans-serif;
+  width: 70vw;
 }
-
-#carouselExampleSlidesOnly {
-  margin: 0 auto;
-  max-height: 700px;
-  display: flex;
+.estadioPag .titulo-Estadio h1 {
+  padding: 45px;
+  margin: 0;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+}
+.estadioPag .mapa iframe {
+  max-width: 100vw;
+  margin: 10px;
+  padding: 10px;
+}
+.estadioPag #carouselExampleSlidesOnly {
+  width: 70vw;
+}
+.estadioPag #carouselExampleSlidesOnly .foto-c {
+  height: 70vh;
+  object-fit: cover;
+  position: relative;
 }
 
 .galeria {
   margin-top: -1rem;
   background-image: url(../images/fondogaleria.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .galeria h1 {
   text-align: center;
@@ -152,34 +153,27 @@ header {
 }
 
 .contacto {
-  justify-content: center;
   background-image: url(../images/fondo.jpg);
   background-position: center;
   min-height: 75vh;
 }
-
-.contactoTitulo {
-  display: flex;
+.contacto .contactoTitulo {
   margin-top: 10px;
   color: #cf3671;
 }
-
-.form-label {
+.contacto .form-label {
   padding: 5px;
   border-radius: 20px;
 }
-
-.row {
+.contacto .row {
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
   color: #2ec2fd;
 }
-
-#exampleFormControlTextarea1 {
+.contacto #exampleFormControlTextarea1 {
   resize: none;
 }
-
-.btn-primary {
+.contacto .btn-primary {
   background-color: #2ec2fd;
   color: #ffffff;
   border-color: #2ec2fd;
@@ -223,37 +217,6 @@ footer div p {
 .redesSociales {
   width: 40px;
   margin: 20px;
-}
-
-.leyendas {
-  display: flex;
-  background-color: #0c2340;
-  align-items: center;
-  flex-direction: row;
-  height: 80vh;
-}
-
-.subtituloMessi {
-  color: #00ffff;
-}
-
-.messiFoto {
-  width: 200px;
-  margin-right: 20px;
-}
-
-.messi {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffcc;
-}
-
-.messiP {
-  display: flex;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  color: #ffffcc;
 }
 
 .videoMessi {
