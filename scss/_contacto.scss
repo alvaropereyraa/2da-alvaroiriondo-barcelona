@@ -3,6 +3,7 @@
     background-image: url(../images/fondo.jpg);
     background-position: center;
     min-height: 75vh;
+
   }
   
   .contactoTitulo {
@@ -17,21 +18,16 @@
   }
   
   .row {
-    font-family: "Roboto Mono", monospace;
+    font-family: $font-parrafo;
     font-size: 30px;
     color: $color-formulario;
   }
-  
-  .form-control {
-    background-color: #dbe6ec;
-  }
-  
   #exampleFormControlTextarea1 {
     resize: none;
   }
   
   .btn-primary {
     background-color: $color-formulario;
-    color: #ffffff;
+    color: $color-contraste;
     border-color: $color-formulario;
   }

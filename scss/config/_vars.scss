@@ -1,7 +1,10 @@
 //Tipografia - fonts//
 $font-title1: "Montserrat", sans-serif;
 $font-title2: "Open Sans", sans-serif;
+$font-title3: "Playwrite GB S", cursive;
+$font-title4: "Kanit", sans-serif;
 $font-parrafo: "Roboto Mono", monospace;
+$font-parrafo2: "Bebas Neue", sans-serif;
 
 
 
@@ -11,12 +14,11 @@ $tamaño-redes: (
     width: 40px,
     margin: 20px
 );
-@mixin fondos ($size,$repeat) {
-    background-size: $size;
-    background-repeat: $repeat;
-}
 
 // colores //
 $color-formulario: #2ec2fd;
-$color-boton: #4CBB17;
+$color-fondo: #2980B9;
+$color-boton: #271080;
 $color-titulos:#FF003F;
+$color-contraste: #ffffff;
+$color-header: #030D76;

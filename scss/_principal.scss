@@ -1,14 +1,13 @@
 .inicio {
     height: $tamaño;
-    background-image: url(../images/fondo-inicio.jpg);
-    @include fondos (cover,no-repeat);
+    background: url(../images/fondo-inicio.jpg) left no-repeat, 
+    url(../images/fondo-inicio-2.jpg) right no-repeat; 
 }
 #inicio-carousel {
     max-width: 60vw;
     margin: auto;
-}
-.carousel-inner {
-    display: flex;
+   
+    
 }
 .carousel-item {
     height: $tamaño;
@@ -16,14 +15,26 @@
 .foto-custom {
     height: 100%;
     object-fit: cover;
-    padding: 1rem;
+    filter: brightness(50%);
 }
 .carousel-caption {
-    justify-content: center;
     h1 {
         width: 270px;
         height: 50px;
-        background-color: aqua;
+        color: $color-contraste;
+        font-family: $font-parrafo2;
+        text-align: left;
+        font-size: 60px;
+    }
+    h2 {
+        color: $color-contraste;
+        text-align: left;
+        font-family: $font-title3;
+        font-size: 45px;
+    }
+    p {
+        text-align: left;
+        font-family: $font-title4;
     }
 }
 .titulo-inicio {
@@ -31,17 +42,13 @@
     font-family: $font-title1;
 }
 .boton-inicio {
-    font-family: $font-title1;
-    min-width: 130px;
-    height: 40px;
+    font-family: $font-title2;
+    min-width: 110px;
+    height: 30px;
     color: #fff;
-    padding: 5px 10px;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s ease;
     position: relative;
-    display: inline-block;
-    outline: none;
     border-radius: 5px;
     border: none;
     background: $color-boton;
@@ -57,43 +64,4 @@
  }
     
 }
-h2 {
-    font-family: $font-title1;
-    color: #381cb1;
-}
 
-// .inicio {
-//     margin-top: -1rem;
-//     background-image: url(../images/fondoinicio.jpg);
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     height: 80vh;
-    
-//     div p {
-//         font-family: $font-title1;
-//         font-optical-sizing: auto;
-//         margin: 40px;
-//         color: #000000;
-//       }
-//   }
-  
-//   .tituloInicio {
-//     color: #0000ff;
-//   }
-  
-//   .inicioFotos {
-//     width: 250px;
-//     margin: 20px;
-//     height: 400px;
-//     object-fit: cover;
-//   }
-  
-//   .inicioRedirecciones {
-//     text-align: center;
-    
-
-//   }
-  

@@ -1,0 +1,4 @@
+@mixin fondos ($size,$repeat) {
+    background-size: $size;
+    background-repeat: $repeat;
+}

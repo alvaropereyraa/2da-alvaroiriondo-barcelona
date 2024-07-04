@@ -5,8 +5,8 @@ body {
 
 header {
   background-image: url(../assets/fondoheader.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 90px;
 }
 
@@ -14,13 +14,13 @@ header {
   background-color: #030D76;
 }
 .offcanvas-body {
-  color: #030D76;
+  background-color: #ff6347;
 }
 
 .nav-link {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  color: #ecd4d4;
+  color: #ff6347;
 }
 .nav-link:hover {
   color: #ffffff;
@@ -37,18 +37,12 @@ header {
 
 .inicio {
   height: 80vh;
-  background-image: url(../images/fondo-inicio.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/fondo-inicio.jpg) left no-repeat, url(../images/fondo-inicio-2.jpg) right no-repeat;
 }
 
 #inicio-carousel {
   max-width: 60vw;
   margin: auto;
-}
-
-.carousel-inner {
-  display: flex;
 }
 
 .carousel-item {
@@ -58,16 +52,26 @@ header {
 .foto-custom {
   height: 100%;
   object-fit: cover;
-  padding: 1rem;
+  filter: brightness(50%);
 }
 
-.carousel-caption {
-  justify-content: center;
-}
 .carousel-caption h1 {
   width: 270px;
   height: 50px;
-  background-color: aqua;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: left;
+  font-size: 60px;
+}
+.carousel-caption h2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Playwrite GB S", cursive;
+  font-size: 45px;
+}
+.carousel-caption p {
+  text-align: left;
+  font-family: "Kanit", sans-serif;
 }
 
 .titulo-inicio {
@@ -76,68 +80,56 @@ header {
 }
 
 .boton-inicio {
-  font-family: "Montserrat", sans-serif;
-  min-width: 130px;
-  height: 40px;
+  font-family: "Open Sans", sans-serif;
+  min-width: 110px;
+  height: 30px;
   color: #fff;
-  padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
   position: relative;
-  display: inline-block;
-  outline: none;
   border-radius: 5px;
   border: none;
-  background: #4CBB17;
-  box-shadow: 0 5px #4CBB17;
+  background: #271080;
+  box-shadow: 0 5px #271080;
 }
 .boton-inicio:hover {
-  box-shadow: 0 3px #4CBB17;
+  box-shadow: 0 3px #271080;
   top: 1px;
 }
 .boton-inicio:active {
-  box-shadow: 0 0 #4CBB17;
+  box-shadow: 0 0 #271080;
   top: 5px;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  color: #381cb1;
-}
-
 .estadioPag {
-  background-image: url(../images/fondoestadio.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgb(136, 8, 8);
+  background: linear-gradient(90deg, rgb(136, 8, 8) 10%, rgb(0, 0, 0) 26%, rgb(4, 2, 41) 76%, rgb(5, 0, 125) 90%);
   margin-top: -1.2rem;
 }
 
 .estadioP {
   text-align: justify;
-  color: #ffffcc;
-  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 25px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 20px;
 }
 
-.estadioFoto {
+.estadioPag h1 {
+  background-image: url(../images/fondoestadio.jpg);
+  padding: 5px;
+  margin: 0;
+  margin-top: 10px;
+  color: #FF3800;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+}
+
+#carouselExampleSlidesOnly {
+  margin: 0 auto;
+  max-height: 700px;
   display: flex;
-  justify-content: center;
-  overflow: hidden;
-  height: 60vh;
-}
-
-.estadioPag div h1 {
-  padding: 10px;
-  color: #ff1493;
-}
-
-.mapaEstadio {
-  display: flex;
-  justify-content: center;
-  padding: 50px;
 }
 
 .galeria {
@@ -146,11 +138,16 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.galeria h1 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+}
 
 .col img {
   max-width: 100%;
   margin: 20px;
-  padding: 10px;
+  padding: 5px;
   background-color: #2980B9;
 }
 
@@ -178,10 +175,6 @@ h2 {
   color: #2ec2fd;
 }
 
-.form-control {
-  background-color: #dbe6ec;
-}
-
 #exampleFormControlTextarea1 {
   resize: none;
 }
@@ -196,7 +189,6 @@ footer {
   background-color: #0c0c0c;
   display: flex;
   justify-content: space-between;
-  height: 18vh;
 }
 footer div {
   width: 33vw;
