@@ -1,10 +1,10 @@
 footer {
   background-color: #0c0c0c;
-  display: flex;
-  justify-content: space-between;
+  @include alineamiento(flex, space-between);
   div {
     width: 33vw;
-    @include flex-centrado(flex, center, center);
+    align-items: center;
+    @include alineamiento(flex, center);
     p {
       color: #f0ffff;
       margin-left: 10px;
@@ -15,22 +15,21 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 160px;
+  .sponsors {
+    width: map-get($tamaño-redes, $key: width);
+    margin: map-get($tamaño-redes, $key: margin);
+    height: map-get($tamaño-redes, $key: height);
+  }
 }
 
-.sponsors {
-  display: flex;
-  width: map-get($tamaño-redes, $key: width);
-  margin: map-get($tamaño-redes, $key: margin);
-}
-
-.redes {
+.redesContenedor {
   display: flex;
   flex-direction: row;
   width: 160px;
   flex-wrap: wrap;
-}
-
-.redesSociales {
-  width: map-get($tamaño-redes, $key: width);
-  margin: map-get($tamaño-redes, $key: margin);
+  .redes {
+    width: map-get($tamaño-redes, $key: width);
+    margin: map-get($tamaño-redes, $key: margin);
+    height: map-get($tamaño-redes, $key: height);
+  }
 }

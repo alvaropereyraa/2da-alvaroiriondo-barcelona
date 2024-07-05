@@ -2,18 +2,17 @@ header {
   background-image: url(../assets/fondoheader.jpg);
   @include fondos(cover, no-repeat);
   height: 90px;
-
 }
 .offcanvas {
-  background-color: #ff6347;
- }
- .offcanvas-header {
+  background-color: #0b3786;
+}
+.offcanvas-header {
   background-color: $color-header;
 }
 header .nav-link {
   font-family: $font-title2;
   font-size: 20px;
-  color: #ff6347;
+  color: #c1cdcd;
 
   &:hover {
     color: #ffffff;

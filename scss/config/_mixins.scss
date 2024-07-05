@@ -2,9 +2,11 @@
     background-size: $size;
     background-repeat: $repeat;
 }
-@mixin flex-centrado ($display,$align,$justify) {
+@mixin alineamiento ($display,$justify) {
     display: $display;
-    align-items: $align;
     justify-content: $justify;
 }
- 
+@mixin texto ($color,$font) {
+    color: $color;
+    font-family: $font;
+}

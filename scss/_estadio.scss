@@ -18,29 +18,26 @@
     text-align: center;
     width: 70vw;
   }
-  .titulo-Estadio {
-    h1 {
-      padding: 45px;
-      margin: 0;
-      color: $color-contraste;
-      font-size: 60px;
-      font-family: $font-title2;
-    }
+  h1 {
+    padding: 45px;
+    margin: 0;
+    font-size: 60px;
+    @include texto($color-contraste, font-title2);
   }
+}
 
-  .mapa {
-    iframe {
-      max-width: 100vw;
-      margin: 10px;
-      padding: 10px;
-    }
+.mapa {
+  iframe {
+    max-width: 100vw;
+    margin: 10px;
+    padding: 10px;
   }
-  #carouselExampleSlidesOnly {
-    width: 70vw;
-    .foto-c {
-      height: 70vh;
-      object-fit: cover;
-      position: relative;
-    }
+}
+#carouselExampleSlidesOnly {
+  width: 70vw;
+  .foto-c {
+    height: 70vh;
+    object-fit: cover;
+    position: relative;
   }
 }

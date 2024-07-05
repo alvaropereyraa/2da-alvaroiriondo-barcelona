@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@ header {
 }
 
 .offcanvas {
-  background-color: #ff6347;
+  background-color: #0b3786;
 }
 
 .offcanvas-header {
@@ -21,7 +22,7 @@ header {
 header .nav-link {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  color: #ff6347;
+  color: #c1cdcd;
 }
 header .nav-link:hover {
   color: #ffffff;
@@ -38,11 +39,33 @@ header .nav-link:hover {
 
 .inicio {
   height: 80vh;
-  background: url(../images/fondo-inicio.jpg) left no-repeat, url(../images/fondo-inicio-2.jpg) right no-repeat;
+  display: flex;
+}
+.inicio .foto-izq-contenedor {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  overflow: hidden;
+}
+.inicio .foto-izq-contenedor .foto-izq {
+  height: 100%;
+  object-fit: cover;
+}
+.inicio .foto-der-contenedor {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  overflow: hidden;
+}
+.inicio .foto-der-contenedor .foto-der {
+  height: 100%;
+  object-fit: cover;
 }
 .inicio #inicio-carousel {
-  max-width: 60vw;
+  width: 60vw;
+  min-width: 378px;
   margin: auto;
+  overflow:  hidden;
 }
 .inicio #inicio-carousel .carousel-item {
   height: 80vh;
@@ -114,22 +137,24 @@ header .nav-link:hover {
   text-align: center;
   width: 70vw;
 }
-.estadioPag .titulo-Estadio h1 {
+.estadioPag h1 {
   padding: 45px;
   margin: 0;
-  color: #ffffff;
   font-size: 60px;
-  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-family: font-title2;
 }
-.estadioPag .mapa iframe {
+
+.mapa iframe {
   max-width: 100vw;
   margin: 10px;
   padding: 10px;
 }
-.estadioPag #carouselExampleSlidesOnly {
+
+#carouselExampleSlidesOnly {
   width: 70vw;
 }
-.estadioPag #carouselExampleSlidesOnly .foto-c {
+#carouselExampleSlidesOnly .foto-c {
   height: 70vh;
   object-fit: cover;
   position: relative;
@@ -138,6 +163,9 @@ header .nav-link:hover {
 .galeria {
   margin-top: -1rem;
   background-image: url(../images/fondogaleria.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 .galeria h1 {
   text-align: center;
@@ -146,10 +174,11 @@ header .nav-link:hover {
 }
 
 .col img {
-  max-width: 100%;
-  margin: 20px;
+  width: 100%;
   padding: 5px;
   background-color: #2980B9;
+  max-height: 262px;
+  object-fit: cover;
 }
 
 .contacto {
@@ -186,8 +215,8 @@ footer {
 }
 footer div {
   width: 33vw;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 footer div p {
@@ -200,29 +229,75 @@ footer div p {
   flex-wrap: wrap;
   width: 160px;
 }
-
-.sponsors {
-  display: flex;
+.sponsorsContenedor .sponsors {
   width: 40px;
   margin: 20px;
+  height: 40px;
 }
 
-.redes {
+.redesContenedor {
   display: flex;
   flex-direction: row;
   width: 160px;
   flex-wrap: wrap;
 }
-
-.redesSociales {
+.redesContenedor .redes {
   width: 40px;
   margin: 20px;
+  height: 40px;
 }
 
-.videoMessi {
+.leyendas {
+  background: rgb(1, 0, 78);
+  background: linear-gradient(180deg, rgb(1, 0, 78) 50%, rgb(151, 0, 73) 100%);
+}
+.leyendas h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: font-title2;
+  font-size: 60px;
+}
+.leyendas .imagenes {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
+}
+.leyendas img {
+  width: 33%;
+  height: 300px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.leyendas h2 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 40px;
+  color: #FF003F;
+  font-family: "Bebas Neue", sans-serif;
+}
+.leyendas p {
+  color: #ffffff;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 25px;
+  border: 2px solid white;
+  white-space: pre-line;
+}
+.leyendas .videoMessi {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.leyendas .videoJohanCruyff {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.leyendas .logros {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */

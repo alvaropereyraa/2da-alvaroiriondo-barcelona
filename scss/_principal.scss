@@ -1,11 +1,35 @@
 .inicio {
   height: $tamaño;
-  background: url(../images/fondo-inicio.jpg) left no-repeat,
-    url(../images/fondo-inicio-2.jpg) right no-repeat;
+  display: flex;
 
+  .foto-izq-contenedor {
+    display: flex;
+    justify-content: center;
+    height: $tamaño;
+    overflow: hidden;
+
+    .foto-izq {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .foto-der-contenedor {
+    display: flex;
+    justify-content: center;
+    height: $tamaño;
+    overflow: hidden;
+
+    .foto-der {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
   #inicio-carousel {
-    max-width: 60vw;
+    width: 60vw;
+    min-width: 378px;
     margin: auto;
+    overflow: hidden;
     .carousel-item {
       height: $tamaño;
       position: relative;

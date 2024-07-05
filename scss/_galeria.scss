@@ -1,19 +1,19 @@
-
 .galeria {
-    margin-top: -1rem;
-    background-image: url(../images/fondogaleria.jpg);
-    
-     h1 {
-      text-align: center;
-      font-family: $font-parrafo;
-      color: $color-contraste;
-     }
+  margin-top: -1rem;
+  background-image: url(../images/fondogaleria.jpg);
+  @include fondos(cover, no-repeat);
+  min-height: 100vh;
+  h1 {
+    text-align: center;
+    font-family: $font-parrafo;
+    color: $color-contraste;
   }
-  
-  .col img {
-    max-width: 100%;
-    margin: 20px;
-    padding: 5px;
-    background-color: $color-fondo;
-  }
-  
+}
+
+.col img {
+  width: 100%;
+  padding: 5px;
+  background-color: $color-fondo;
+  max-height: 262px;
+  object-fit: cover;
+}

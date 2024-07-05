@@ -1,8 +1,52 @@
+.leyendas {
+  background: rgb(1, 0, 78);
+  background: linear-gradient(
+    180deg,
+    rgba(1, 0, 78, 1) 50%,
+    rgba(151, 0, 73, 1) 100%
+  );
+  h1 {
+    text-align: center;
+    @include texto($color-contraste, font-title2);
+    font-size: 60px;
+  }
+  .imagenes {
+    @include alineamiento(flex, center);
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    width: 33%;
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    @include texto($color-titulos, $font-parrafo2);
+  }
+  p{
+    @include texto($color-contraste, $font-title4);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    border: 2px solid white;
+    white-space: pre-line;
+  }
 
-  
   .videoMessi {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    @include alineamiento(flex, center);
+    margin-bottom: 50px;
+  }
+  .videoJohanCruyff {
+    @include alineamiento(flex, center);
+    padding: 10px;
   }
   
+  .logros {
+    text-decoration: underline;
+  }
+}
