@@ -2,26 +2,26 @@ header {
   background-image: url(../assets/fondoheader.jpg);
   @include fondos(cover, no-repeat);
   height: 90px;
-}
-.offcanvas {
-  background-color: #0b3786;
-}
-.offcanvas-header {
-  background-color: $color-header;
-}
-header .nav-link {
-  font-family: $font-title2;
-  font-size: 20px;
-  color: #c1cdcd;
-
-  &:hover {
-    color: #ffffff;
+  .offcanvas {
+    background-color: $color-header;
   }
-}
-.navbar-toggler {
-  border: none;
-  font-size: 1rem;
-}
-.logo {
-  width: 100px;
+  .offcanvas-header {
+    background-color: $color-header;
+  }
+  header .nav-link {
+    font-family: $font-title2;
+    font-size: 20px;
+    color: #c1cdcd;
+  
+    &:hover {
+      color: $color-contraste;
+    }
+  }
+  .navbar-toggler {
+    border: none;
+    font-size: 1rem;
+  }
+  .logo {
+    width: 100px;
+  }
 }

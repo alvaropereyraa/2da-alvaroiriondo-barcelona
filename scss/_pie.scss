@@ -14,7 +14,7 @@ footer {
 .sponsorsContenedor {
   display: flex;
   flex-wrap: wrap;
-  width: 160px;
+  width: $medidas-footer;
   .sponsors {
     width: map-get($tamaño-redes, $key: width);
     margin: map-get($tamaño-redes, $key: margin);
@@ -25,7 +25,7 @@ footer {
 .redesContenedor {
   display: flex;
   flex-direction: row;
-  width: 160px;
+  width: $medidas-footer;
   flex-wrap: wrap;
   .redes {
     width: map-get($tamaño-redes, $key: width);

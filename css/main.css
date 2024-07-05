@@ -10,30 +10,25 @@ header {
   background-repeat: no-repeat;
   height: 90px;
 }
-
-.offcanvas {
-  background-color: #0b3786;
-}
-
-.offcanvas-header {
+header .offcanvas {
   background-color: #030D76;
 }
-
-header .nav-link {
+header .offcanvas-header {
+  background-color: #030D76;
+}
+header header .nav-link {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #c1cdcd;
 }
-header .nav-link:hover {
+header header .nav-link:hover {
   color: #ffffff;
 }
-
-.navbar-toggler {
+header .navbar-toggler {
   border: none;
   font-size: 1rem;
 }
-
-.logo {
+header .logo {
   width: 100px;
 }
 
