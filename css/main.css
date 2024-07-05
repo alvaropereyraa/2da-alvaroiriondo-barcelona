@@ -16,12 +16,12 @@ header .offcanvas {
 header .offcanvas-header {
   background-color: #030D76;
 }
-header header .nav-link {
+header .nav-link {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #c1cdcd;
 }
-header header .nav-link:hover {
+header .nav-link:hover {
   color: #ffffff;
 }
 header .navbar-toggler {
