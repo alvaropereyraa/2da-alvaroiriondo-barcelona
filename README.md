@@ -17,7 +17,9 @@ El sitio consiste en 5 apartados.
 
 ### Frameworks/bibliotecas
 
-Para el sitio se hizo uso de 1 framework y 1 biblioteca de animaciones. Ambos conectados via CDN.
+Para el sitio se hizo uso de 1 framework, 1 biblioteca de animaciones y 1 biblioteca de fuentes.   
+Todos conectados via CDN.
 
 - [Bootstrap v5.3.3](https://getbootstrap.com) 
 - [Animate.css v4](https://animate.style)
+- [Google Fonts](https://fonts.google.com)
