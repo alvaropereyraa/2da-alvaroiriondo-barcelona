@@ -8,11 +8,11 @@ El proyecto consistio en crear un sitio inicialmente con HTML y CSS al cual post
 ### Estructura de la pagina
 
 El sitio consiste en 5 apartados.
-1. Inicio (index.html)
-2. Estadio 
-3. Leyendas 
-4. Galeria  
-5. Contacto.
+1. [Inicio](https://github.com/alvaropereyraa/2da-alvaroiriondo-barcelona/blob/main/index.html)
+2. [Estadio](https://github.com/alvaropereyraa/2da-alvaroiriondo-barcelona/blob/main/pages/estadio.html)
+3. [Leyendas](https://github.com/alvaropereyraa/2da-alvaroiriondo-barcelona/blob/main/pages/leyendas.html) 
+4. [Galeria](https://github.com/alvaropereyraa/2da-alvaroiriondo-barcelona/blob/main/pages/galeria.html)  
+5. [Contacto](https://github.com/alvaropereyraa/2da-alvaroiriondo-barcelona/blob/main/pages/contacto.html)
 
 ### Frameworks/bibliotecas
 
