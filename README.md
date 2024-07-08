@@ -1,9 +1,10 @@
 # Proyecto FC Barcelona 
-## Curso realizado en coderhouse
+## Curso realizado en Coderhouse
 
 ## Descripción
 
-El proyecto consistio en crear un sitio inicialmente con HTML y CSS al cual posteriormente se le añadio SCSS. La tematica elegida fue el Futbol Club Barcelona.
+El proyecto consistio en crear un sitio inicialmente con HTML y CSS al cual posteriormente se le añadio SCSS.   
+La tematica elegida fue el Fútbol Club Barcelona de España.
 
 ### Estructura de la pagina
 
