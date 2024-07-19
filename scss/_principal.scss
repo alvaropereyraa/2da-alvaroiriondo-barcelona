@@ -1,11 +1,11 @@
 .inicio {
-  height: $tamaño;
+  height: $tamano;
   display: flex;
 
   .foto-izq-contenedor {
     display: flex;
     justify-content: center;
-    height: $tamaño;
+    height: $tamano;
     overflow: hidden;
 
     .foto-izq {
@@ -17,7 +17,7 @@
   .foto-der-contenedor {
     display: flex;
     justify-content: center;
-    height: $tamaño;
+    height: $tamano;
     overflow: hidden;
 
     .foto-der {
@@ -31,7 +31,7 @@
     margin: auto;
     overflow: hidden;
     .carousel-item {
-      height: $tamaño;
+      height: $tamano;
       position: relative;
       .foto-custom {
         height: 100%;

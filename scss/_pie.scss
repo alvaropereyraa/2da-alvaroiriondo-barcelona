@@ -16,9 +16,9 @@ footer {
   flex-wrap: wrap;
   width: $medidas-footer;
   .sponsors {
-    width: map-get($tamaño-redes, $key: width);
-    margin: map-get($tamaño-redes, $key: margin);
-    height: map-get($tamaño-redes, $key: height);
+    width: map-get($tamano-redes, $key: width);
+    margin: map-get($tamano-redes, $key: margin);
+    height: map-get($tamano-redes, $key: height);
   }
 }
 
@@ -28,8 +28,8 @@ footer {
   width: $medidas-footer;
   flex-wrap: wrap;
   .redes {
-    width: map-get($tamaño-redes, $key: width);
-    margin: map-get($tamaño-redes, $key: margin);
-    height: map-get($tamaño-redes, $key: height);
+    width: map-get($tamano-redes, $key: width);
+    margin: map-get($tamano-redes, $key: margin);
+    height: map-get($tamano-redes, $key: height);
   }
 }
